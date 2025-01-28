@@ -1,4 +1,4 @@
-# Inkscape Defaults
+# HARP Research Category Diagram Inkscape Defaults
 
 This repository contains default settings and tools for Inkscape, specifically configured for HARP Research Inc.
 
@@ -57,8 +57,30 @@ This repository contains default settings and tools for Inkscape, specifically c
 
    - After you have set the shortcut, press escape, then click x to close the dialog.
 
+### Set Render LaTeX to `xelatex`
 
-3. Set Render LaTeX to 
-3. Open Inkscape
-4. Open the TexText Extension
-5. Select the LaTeX preamble
+- After setting the keyboard shortcut, you can now use the shortcut to open the TexText dialog. It will pop up seperately from the Inkscape window. 
+
+**Note:** While the TexText dialog is open, Inkscape will appear to be unresponsive. This is normal. If you can't see the TexText dialog, you can open it by clicking on the TexText icon in the toolbar and selecting the dialogue window.
+
+- After clicking into the dialog, select  the dropdown in the Command column and select `xelatex`
+
+![1738091365197](image/README/1738091365197.png)
+
+![1738091377638](image/README/1738091377638.png)
+### Selecting the HARP Research Preamble 
+
+- Under the `Preamble File` column, click on the `default_package.tex` button.
+![1738091411349](image/README/1738091411349.png)
+
+- After clicking on the button, a file browser will pop up. Navigate to the `preamble` folder in this repository and select the `HARP Preamble.tex` file.
+
+- **Note:** This will only set the preamble for the current latex text block. If you want to set the preamble for all latex text blocks, you will need to set the preamble for each text block individually. In order to modify the preamble for all text blocks, you will need to modify the global `default_package.tex` file in the `preamble` folder from TexText.
+
+### Adding the Inclusion Morphism Tail
+
+- First select the pen tool on the sidebar.
+![1738091665454](image/README/1738091665454.png)
+
+- Press `Ctrl + Shift + F` to open the fill and stroke dialog.
+
