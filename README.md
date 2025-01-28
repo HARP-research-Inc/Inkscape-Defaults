@@ -82,5 +82,26 @@ This repository contains default settings and tools for Inkscape, specifically c
 - First select the pen tool on the sidebar.
 ![1738091665454](image/README/1738091665454.png)
 
+- Draw a random line with the pen tool on the document.
+
+- Zoom in on the leftmost or generally starting end of the line with the curve by holding `ctrl` and scrolling with the mouse wheel
+
 - Press `Ctrl + Shift + F` to open the fill and stroke dialog.
 
+- Open the `stroke style` tab and click on the leftmost marker dropdown
+![1738092698694](image/README/1738092698694.png)
+
+- From here, select the curved back as pictured below, then click `edit on canvas`.
+![1738092741886](image/README/1738092741886.png)
+
+- Now you should be able to see 4 handle on a part of the curve. Drag the center handle to generally the middle of the curve.
+
+![SS1](image/README/ss1.png)
+
+![SS2](image/README/ss2.png)
+
+- After doing so, you will now be able to select the end.
+
+- Repeat the process again with the curved back but this time try to align the curve so it curves the other direction so you can change the direction of the tail depending on how you want it to point.
+
+- Also repeat both of these for the other end of the line.
