@@ -105,3 +105,9 @@ This repository contains default settings and tools for Inkscape, specifically c
 - Repeat the process again with the curved back but this time try to align the curve so it curves the other direction so you can change the direction of the tail depending on how you want it to point.
 
 - Also repeat both of these for the other end of the line.
+
+### Editing a Textext block.
+
+- To edit a Textext block, simply select the entire object, then press `Ctrl + T` to open the TexText dialog.
+
+- If you double click on the object, it will open the path editor, but not the TexText dialog.
